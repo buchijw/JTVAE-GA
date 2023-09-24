@@ -2,3 +2,4 @@ moses/moses_prop.csv filter=lfs diff=lfs merge=lfs -text
 moses/moses_smiles.txt filter=lfs diff=lfs merge=lfs -text
 moses/moses_smiles_test.txt filter=lfs diff=lfs merge=lfs -text
 moses/prop.txt filter=lfs diff=lfs merge=lfs -text
+fast_molvae/moses_h450z56_prop/model.iter-730000 filter=lfs diff=lfs merge=lfs -text
