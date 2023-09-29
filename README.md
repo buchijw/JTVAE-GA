@@ -7,7 +7,6 @@
 ![License](https://img.shields.io/github/license/buchijw/JTVAE-GA?style=for-the-badge)
 ![Git LFS](https://img.shields.io/badge/GIT%20LFS-8A2BE2?style=for-the-badge)
 
-
 <!-- TABLE OF CONTENTS -->
 <details open>
   <summary><h3>Table of Contents</h3></summary>
@@ -20,7 +19,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
