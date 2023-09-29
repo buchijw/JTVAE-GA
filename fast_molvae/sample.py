@@ -22,10 +22,10 @@ lg.setLevel(rdkit.RDLogger.CRITICAL)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--nsample', type=int, required=True)
-parser.add_argument('--vocab', required=True)
-parser.add_argument('--model', required=True)
+parser.add_argument('--vocab', type=str, required=True)
+parser.add_argument('--model', type=str, required=True)
 parser.add_argument('--prop', type=bool, default=False)
-parser.add_argument('--seed', required=True,default=2023)
+parser.add_argument('--seed', type=int, required=True, default=2023)
 
 parser.add_argument('--hidden_size', type=int, default=450)
 parser.add_argument('--latent_size', type=int, default=56)

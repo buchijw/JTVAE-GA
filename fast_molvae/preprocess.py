@@ -87,10 +87,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--train", dest="train_path")
     parser.add_argument("-p", "--prop", dest="prop",type=bool,default=False)
-    parser.add_argument("-n", "--split", dest="nsplits", default=10)
-    parser.add_argument("-j", "--jobs", dest="njobs", default=8)
+    parser.add_argument("-n", "--split", dest="nsplits", type=int, default=10)
+    parser.add_argument("-j", "--ncpu", dest="ncpu", type=int, default=8)
     args = parser.parse_args()
-    args.njobs = int(args.njobs)
+    args.ncpu = int(args.ncpu)
 
     num_splits = int(args.nsplits)
 
@@ -98,12 +98,12 @@ if __name__ == "__main__":
         smiles_list = [line.rstrip("\n") for line in f]
     
     if args.prop:
-        all_data = list(Parallel(n_jobs=args.njobs, backend="loky")(
+        all_data = list(Parallel(n_jobs=args.ncpu, backend="loky")(
             delayed(tensorize_prop)(smiles_list[idx],True) for idx in tqdm(range(0,len(smiles_list)))
                 )
             )
     else:
-        all_data = list(Parallel(n_jobs=args.njobs, backend="loky")(
+        all_data = list(Parallel(n_jobs=args.ncpu, backend="loky")(
             delayed(tensorize)(smiles_list[idx],True) for idx in tqdm(range(0,len(smiles_list)))
                 )
             )
