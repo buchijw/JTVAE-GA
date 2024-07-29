@@ -64,9 +64,9 @@ Packages (versions in brackets were used):
 
 The following directories contains the implementations of the model:
 
-* `fast_jtnn/` contains codes for model implementation.
-* `fast_molvae/` contains codes for VAE training. Please refer to [fast_molvae/README.md](fast_molvae/README.md) for details.
-* `ga/` contains codes and results for gradient ascent.
+* [fast_jtnn/](fast_jtnn/) contains codes for model implementation.
+* [fast_molvae/](fast_molvae/) contains codes for VAE training. Please refer to [fast_molvae/README.md](fast_molvae/README.md) for details.
+* [ga/](ga/) contains codes and results for gradient ascent.
 
 The MOSES datasets were taken from https://github.com/molecularsets/moses. Please refer to [moses/README.md](moses/README.md) for details.
 
