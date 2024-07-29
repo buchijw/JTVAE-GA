@@ -1,0 +1,4 @@
+CNC(=O)c1ccc(NC(=O)c2ccc(Oc3ccnc(C(F)(F)F)c3)cc2Cl)cc1
+Cc1cc(Cl)cc(CNC(=O)Nc2cccc(F)c2-c2ccccc2C)c1
+CNC(=O)c1cc(F)cc(NC(=O)c2ccc(Oc3cccc(C#N)c3Cl)cc2)c1
+CNC(=O)c1ccc(Nc2ccccc2Oc2ccc(C(F)(F)F)c(Cl)c2)cc1

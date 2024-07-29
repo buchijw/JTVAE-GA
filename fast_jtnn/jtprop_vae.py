@@ -418,7 +418,7 @@ class JTPropVAE(nn.Module):
     #     else:
     #         return None, None
         
-    def optimize(self, smiles, sim_cutoff=0.0, lr=2.0, num_iter=20):
+    def optimize_grad_ascent(self, smiles, sim_cutoff=0.0, lr=2.0, num_iter=20):
         # mol_tree = MolTree(smiles)
         # mol_tree.recover()
         tree_batch = [MolTree(smiles)]
@@ -470,32 +470,6 @@ class JTPropVAE(nn.Module):
                     result_list.append(new_smiles)
         return result_list
             
-        
-        
-        """
-        best_vec = visited[0]
-        for new_vec in visited:
-            tree_vec,mol_vec = torch.chunk(new_vec, 2, dim=1)
-            new_smiles = self.decode(tree_vec, mol_vec, prob_decode=False)
-            if new_smiles is None: continue
-            new_mol = Chem.MolFromSmiles(new_smiles)
-            fp2 = AllChem.GetMorganFingerprint(new_mol, 2)
-            sim = DataStructs.TanimotoSimilarity(fp1, fp2) 
-            if sim >= sim_cutoff:
-                best_vec = new_vec
-        """
-        # tree_vec,mol_vec = torch.chunk(visited[l], 2, dim=1)
-        # #tree_vec,mol_vec = torch.chunk(best_vec, 2, dim=1)
-        # new_smiles = self.decode(tree_vec, mol_vec, prob_decode=False)
-        # if new_smiles is None:
-        #     return None, None
-        # new_mol = Chem.MolFromSmiles(new_smiles)
-        # fp2 = AllChem.GetMorganFingerprint(new_mol, 2)
-        # sim = DataStructs.TanimotoSimilarity(fp1, fp2) 
-        # if sim >= sim_cutoff:
-        #     return new_smiles, sim
-        # else:
-        #     return None, None
     
     def reconstruct(self, smiles, prob_decode=False):
         mol_tree = MolTree(smiles)
@@ -516,7 +490,7 @@ class JTPropVAE(nn.Module):
         
         return self.decode(z_tree_vecs, z_mol_vecs, prob_decode)
     
-    def grad_ascent(self, smiles, base_lr=2.0, num_iter=20, grid_size=3,sim_cutoff=0,must_find=False):
+    def grid_grad_ascent(self, smiles, base_lr=2.0, num_iter=20, grid_size=3,sim_cutoff=0,must_find=False):
         # mol_tree = MolTree(smiles)
         # mol_tree.recover()
         mol_tree = MolTree(smiles)
@@ -670,15 +644,3 @@ class JTPropVAE(nn.Module):
         
         return decoded,z_list
         
-        """
-        best_vec = visited[0]
-        for new_vec in visited:
-            tree_vec,mol_vec = torch.chunk(new_vec, 2, dim=1)
-            new_smiles = self.decode(tree_vec, mol_vec, prob_decode=False)
-            if new_smiles is None: continue
-            new_mol = Chem.MolFromSmiles(new_smiles)
-            fp2 = AllChem.GetMorganFingerprint(new_mol, 2)
-            sim = DataStructs.TanimotoSimilarity(fp1, fp2) 
-            if sim >= sim_cutoff:
-                best_vec = new_vec
-        """

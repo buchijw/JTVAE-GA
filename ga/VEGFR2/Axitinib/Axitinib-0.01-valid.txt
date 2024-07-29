@@ -1,0 +1,2 @@
+CNC(=O)c1ccccc1Sc1ccc2nnc(-c3ccc(F)cc3)n2n1
+CNC(=O)c1ccccc1Sc1ccccc1C#Cc1ccccn1

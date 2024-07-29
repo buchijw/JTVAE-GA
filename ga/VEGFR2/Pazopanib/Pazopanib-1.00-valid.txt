@@ -1,0 +1,2 @@
+Cc1ccc(Nc2nc(N(C)C)nc3cc(O)c(C)cc23)cc1
+Cc1ccc(Nc2ncnc(N(C)c3ccc4ccccc4c3)c2N)cc1

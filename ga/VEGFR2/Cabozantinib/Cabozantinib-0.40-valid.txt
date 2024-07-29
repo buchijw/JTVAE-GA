@@ -1,0 +1,8 @@
+COc1cc(C(=O)Oc2ccc(OC)c3ncccc23)ccc1NC(=O)C(C)C
+Cc1ccc(NC(=O)c2ccccc2Oc2cccc(-c3cccc(C)c3)c2)cc1
+COc1ccc(Oc2ccc(OCC(=O)Nc3ccc(Cl)c(C)c3)cc2)cc1
+COc1cc(C(=O)Oc2ccc(OC)c3ccccc23)ccc1NC(=O)C(C)C
+Cc1ccccc1Oc1cccc(Cc2cccc(NC(=O)c3cccc(F)c3)c2)c1
+COc1ccc(OCc2ccc(NC(=O)C3(C#N)CC3)cc2Cl)c(OC)c1
+COc1ccc(OCc2ccc(OC(=O)Nc3ccc(F)c(F)c3)cc2)cc1
+COc1ccc(OCc2ccc(NC(=O)C3(C#N)CC3)cc2Cl)cc1OC

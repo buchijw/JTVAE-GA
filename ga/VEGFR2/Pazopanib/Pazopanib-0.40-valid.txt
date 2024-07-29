@@ -1,0 +1,4 @@
+Cc1ccc(C)c(Nc2ccc(S(=O)(=O)Nc3cc(C)ccc3C)cc2)c1
+Cc1ccc(Nc2cc(N(C)c3ccc(C)c4ncccc34)nc(N)n2)cc1
+Cc1ccc(Nc2nc(N(C)C)nc3cc(O)c(C)cc23)cc1
+Cc1ccc(Nc2cc(C)nc(N(C)c3cccc4cc(O)ccc34)n2)cc1

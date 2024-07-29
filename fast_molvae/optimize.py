@@ -115,7 +115,7 @@ for idx,smiles in tqdm(enumerate(data)):
         continue
     score = penalized_logp_standard(mol)
 
-    new_smiles,sim = model.optimize(smiles, sim_cutoff=sim_cutoff, lr=lr, num_iter=n_iter)
+    new_smiles,sim = model.optimize_grad_ascent(smiles, sim_cutoff=sim_cutoff, lr=lr, num_iter=n_iter)
     new_mol = Chem.MolFromSmiles(new_smiles)
     if new_mol is None:
         print('New SMILES at index %d is invalid.' % (idx))

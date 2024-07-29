@@ -1,0 +1,6 @@
+COc1ccccc1-c1cc(Oc2cc(C)cc(Cl)c2)ccc1C
+COc1ccc(Oc2cc3ncccc3cc2NC(=O)OC(C)(C)C)c(OC)c1
+COc1ccc(Oc2ccc(OCc3cc(Cl)cc(Cl)c3)cc2)cc1OC
+COc1ccc(Oc2ccc3cc(NC(=O)NCc4ccccc4)c(Cl)cc3c2)cc1
+CCNC(=O)Nc1ccc2cc(Oc3ccc(OC)cc3OC)ccc2c1
+COc1cc2ccc(Oc3ccc(NC(C)=O)cc3Cl)nc2cc1OC

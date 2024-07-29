@@ -1,0 +1,13 @@
+Cc1ccc(NC(=O)c2cccc(F)c2-c2cc(N)cc(Cl)c2)cc1
+CNC(=O)c1ccc(NC(=O)c2cccc(Oc3ccnc(C(F)(F)F)c3)c2Cl)cc1
+CNC(=O)c1ccc(NC(=O)c2ccc(Oc3ccc(C(C)(C)C)cc3)c(Cl)c2)cc1
+CCc1ccc(Oc2ccc(C(=O)Nc3ccc(C(=O)NC)c(F)c3)cc2)cc1Cl
+Cc1ccc(NC(=O)c2ccc(Nc3cccc(Cl)c3C(F)(F)F)cc2)cc1
+Cc1ccc(NC(=O)c2ccc(Nc3ccc(C(F)(F)F)c(Cl)c3)cc2)cc1
+CCc1ccc(Oc2ccc(C(=O)Nc3ccc(C(=O)NC)c(F)c3)cc2)c(Cl)c1
+CNC(=O)c1cc(Nc2ccc(Oc3ccc(C(C)=O)c(F)c3)cc2)cc(C)n1
+CNC(=O)c1cc(Nc2ccc(Oc3ccc(C(C)(C)C)cc3)cc2)cc(Cl)n1
+CNC(=O)c1ccc(NC(=O)c2ccc(Oc3ccc(C(C)(C)C)cc3)c(F)c2)cc1
+CNC(=O)c1ccc(Nc2cccc(Oc3ccc(C(F)(F)F)c(Cl)c3)c2)cc1
+CNC(=O)c1ccc(Nc2ccccc2Oc2ccc(C(F)(F)F)c(Cl)c2)cc1
+CNC(=O)c1cc(Nc2ccc(Oc3cccc(C(C)=O)c3F)cc2)cc(C)n1

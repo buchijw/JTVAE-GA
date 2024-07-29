@@ -1,0 +1,2 @@
+vocab,smiles_file,ID_file,model,save_dir,sim,lr,lr_list_file,n_iter,seed,hidden_size,batch_size,latent_size,depthT,depthG
+../moses/vocab.txt,./VEGFR2_smiles.txt,./VEGFR2_smiles_name.txt,../fast_molvae/moses_h450z56_prop/model.iter-730000,./VEGFR2,0.3,0.03,./lr_list.txt,50,42,450,64,56,20,3

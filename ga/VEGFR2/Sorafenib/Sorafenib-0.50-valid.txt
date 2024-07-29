@@ -1,0 +1,14 @@
+CNC(=O)c1ccc(NC(=O)c2ccc(Oc3cccnc3C(C)C)cc2)cc1
+COc1ccc(CNc2cccc(-c3cccc(C(=O)Nc4ccc(C)cc4)c3)c2)cc1
+CC(=O)c1ccc(Nc2ccc(-c3ccc(C(=O)Nc4ccccc4)cc3)cc2)c(Cl)c1
+CNC(=O)c1cccc(-c2cccc(Nc3ccc(-c4ccc(Cl)cc4)cc3)c2)c1
+COc1ccc(CNc2ccccc2-c2cccc(C(=O)Nc3cccc(Cl)c3)c2)cc1
+CNC(=O)c1ccc(NC(=O)c2cccc(Oc3ccc(-c4ccccc4)cc3Cl)c2)cc1
+CNC(=O)c1ccc(Nc2cccc(Oc3cccc(C(C)C)c3)c2Cl)cc1
+CNC(=O)c1ccc(-c2cccc(Nc3ccc(-c4ccc(Cl)cc4)cc3)c2)cc1
+CNC(=O)c1ccc(Nc2cccc(Oc3ccc(C(C)C)cc3)c2)cc1
+CNC(=O)c1cc(Nc2ccc(Oc3ccc(C(C)=O)cc3Cl)cc2)ccn1
+CNc1cccc(C(=O)Nc2cccc(Oc3ccc(-c4ccccc4)c(Cl)c3)c2)c1
+CNC(=O)c1ccc(NC(=O)c2cccc(Oc3ccc(C#N)cc3Cl)c2)cc1
+CNC(=O)c1cc(Nc2ccc(Oc3ccc(C(C)(C)C)cc3)cc2)ccn1
+CNC(=O)c1ccc(NC(=O)c2cccc(Oc3ccc(C(C)(C)C)cc3)c2)cc1

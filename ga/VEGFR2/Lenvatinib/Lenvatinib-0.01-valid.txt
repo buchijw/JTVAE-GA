@@ -1,0 +1,2 @@
+COc1ccc(C(=O)Nc2cnc3cc(Cl)c(OC)cc3c2)c(N)c1
+COc1ccc(NC(=O)c2cc3ccc(N)nc3cc2OC)c(OC)c1
