@@ -82,9 +82,18 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
-## Contact
+## Contributing
 
-Gia-Bao Truong (tgbao.d18@ump.edu.vn)
+- [Gia-Bao Truong](https://github.com/buchijw/)
+- Thanh-An Pham
+- Van-Thinh To
+- Hoang-Son Lai Le
+- Phuoc-Chung Van Nguyen
+- [The-Chuong Trinh](https://trinhthechuong.github.io)
+- [Tieu-Long Phan](https://tieulongphan.github.io/)
+- Tuyen Ngoc Truong<sup>*</sup>
+
+<sup>*</sup>Corresponding author
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,6 +101,6 @@ Gia-Bao Truong (tgbao.d18@ump.edu.vn)
 
 ## Acknowledgments
 
-Wengong Jin, Regina Barzilay and Tommi Jaakkola for [Junction Tree Variational Autoencoder](https://arxiv.org/abs/1802.04364).
+This work has received support from the Korea International Cooperation Agency (KOICA) under the project entitled "Education and Research Capacity Building Project at University of Medicine and Pharmacy at Ho Chi Minh City," conducted from 2024 to 2025 (Project No. 2021-00020-3).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
